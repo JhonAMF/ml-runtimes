@@ -141,6 +141,7 @@ ENV \
     ML_RUNTIME_GBN=41680679
 
 LABEL \
+    org.opencontainers.image.source=https://github.com/jhonamf/ml-runtimes \
     com.cloudera.ml.runtime.runtime-metadata-version=$ML_RUNTIME_METADATA_VERSION \
     com.cloudera.ml.runtime.editor=$ML_RUNTIME_EDITOR \
     com.cloudera.ml.runtime.edition=$ML_RUNTIME_EDITION \
